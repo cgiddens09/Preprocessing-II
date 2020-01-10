@@ -1,1 +1,15 @@
 // Mixins in here
+.button-style(@c, @r){
+    background-color: @c;
+    border-radius: @r;
+    color: white;
+    text-align: center;
+    width: 80%;
+    font-size: 1.9rem;
+    padding:4%;
+
+    @media @mobile{
+        width: 100%;
+        padding: 3%;
+    }
+}
